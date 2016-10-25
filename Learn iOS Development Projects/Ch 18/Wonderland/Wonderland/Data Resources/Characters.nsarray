@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>description</key>
+		<string>Alice is seven and a half years old, quaintly logical, and resolutely independant. She's fond of sweets and books with pictures.</string>
+		<key>image</key>
+		<string>char-alice</string>
+		<key>name</key>
+		<string>Alice</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Perpetually late, the White Rabbit is the first character Alice sees. He's a nervous little fellow that does not like his house invaded by little girls, regardless of size.</string>
+		<key>image</key>
+		<string>char-rabbit</string>
+		<key>name</key>
+		<string>White Rabbit</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>An officious bird, the Dodo presides over the Caucus race, in which everyone wins, even Alice.</string>
+		<key>image</key>
+		<string>char-dodo</string>
+		<key>name</key>
+		<string>The Dodo</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>The Caterpillar is a hookah-smoking caterpilla exactly three inches high which, according to him, "is a very good height indeed" (though Alice believes it to be a wretched height).</string>
+		<key>image</key>
+		<string>char-caterpillar</string>
+		<key>name</key>
+		<string>The Caterpillar</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>The chief difficulty Alice found at first was in managing her flamingo.</string>
+		<key>image</key>
+		<string>char-flamingo</string>
+		<key>name</key>
+		<string>The Flamingo</string>
+	</dict>
+	<dict>
+		<key>description</key>
+		<string>Quite mad, the hatter and the March Hare were sentenced to perpetual tea time. He is fond of riddles and poetry.</string>
+		<key>image</key>
+		<string>char-madhatter</string>
+		<key>name</key>
+		<string>The Hatter</string>
+	</dict>
+</array>
+</plist>

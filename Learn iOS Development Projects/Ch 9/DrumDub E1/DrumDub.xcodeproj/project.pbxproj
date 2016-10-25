@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A422E0D198EAB2400FEEE32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A422E0C198EAB2400FEEE32 /* AppDelegate.swift */; };
+		1A422E0F198EAB2400FEEE32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A422E0E198EAB2400FEEE32 /* ViewController.swift */; };
+		1A422E12198EAB2400FEEE32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A422E10198EAB2400FEEE32 /* Main.storyboard */; };
+		1A422E14198EAB2400FEEE32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A422E13198EAB2400FEEE32 /* Images.xcassets */; };
+		1A422E20198EAB2400FEEE32 /* DrumDubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A422E1F198EAB2400FEEE32 /* DrumDubTests.swift */; };
+		1A422E2E198F144500FEEE32 /* bass.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A422E2A198F144500FEEE32 /* bass.m4a */; };
+		1A422E2F198F144500FEEE32 /* maraca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A422E2B198F144500FEEE32 /* maraca.m4a */; };
+		1A422E30198F144500FEEE32 /* snare.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A422E2C198F144500FEEE32 /* snare.m4a */; };
+		1A422E31198F144500FEEE32 /* tambourine.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1A422E2D198F144500FEEE32 /* tambourine.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A422E1A198EAB2400FEEE32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A422DFF198EAB2400FEEE32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A422E06198EAB2400FEEE32;
+			remoteInfo = DrumDub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A422E07198EAB2400FEEE32 /* DrumDub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrumDub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A422E0B198EAB2400FEEE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A422E0C198EAB2400FEEE32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A422E0E198EAB2400FEEE32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A422E11198EAB2400FEEE32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A422E13198EAB2400FEEE32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A422E19198EAB2400FEEE32 /* DrumDubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrumDubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A422E1E198EAB2400FEEE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A422E1F198EAB2400FEEE32 /* DrumDubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumDubTests.swift; sourceTree = "<group>"; };
+		1A422E2A198F144500FEEE32 /* bass.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bass.m4a; sourceTree = "<group>"; };
+		1A422E2B198F144500FEEE32 /* maraca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = maraca.m4a; sourceTree = "<group>"; };
+		1A422E2C198F144500FEEE32 /* snare.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = snare.m4a; sourceTree = "<group>"; };
+		1A422E2D198F144500FEEE32 /* tambourine.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tambourine.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A422E04198EAB2400FEEE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A422E16198EAB2400FEEE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A422DFE198EAB2400FEEE32 = {
+			isa = PBXGroup;
+			children = (
+				1A422E09198EAB2400FEEE32 /* DrumDub */,
+				1A422E1C198EAB2400FEEE32 /* DrumDubTests */,
+				1A422E08198EAB2400FEEE32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A422E08198EAB2400FEEE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A422E07198EAB2400FEEE32 /* DrumDub.app */,
+				1A422E19198EAB2400FEEE32 /* DrumDubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A422E09198EAB2400FEEE32 /* DrumDub */ = {
+			isa = PBXGroup;
+			children = (
+				1A422E0C198EAB2400FEEE32 /* AppDelegate.swift */,
+				1A422E0E198EAB2400FEEE32 /* ViewController.swift */,
+				1A422E10198EAB2400FEEE32 /* Main.storyboard */,
+				1A422E13198EAB2400FEEE32 /* Images.xcassets */,
+				1A422E29198F13FC00FEEE32 /* Sounds */,
+				1A422E0A198EAB2400FEEE32 /* Supporting Files */,
+			);
+			path = DrumDub;
+			sourceTree = "<group>";
+		};
+		1A422E0A198EAB2400FEEE32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A422E0B198EAB2400FEEE32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A422E1C198EAB2400FEEE32 /* DrumDubTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A422E1F198EAB2400FEEE32 /* DrumDubTests.swift */,
+				1A422E1D198EAB2400FEEE32 /* Supporting Files */,
+			);
+			path = DrumDubTests;
+			sourceTree = "<group>";
+		};
+		1A422E1D198EAB2400FEEE32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A422E1E198EAB2400FEEE32 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A422E29198F13FC00FEEE32 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1A422E2A198F144500FEEE32 /* bass.m4a */,
+				1A422E2B198F144500FEEE32 /* maraca.m4a */,
+				1A422E2C198F144500FEEE32 /* snare.m4a */,
+				1A422E2D198F144500FEEE32 /* tambourine.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A422E06198EAB2400FEEE32 /* DrumDub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A422E23198EAB2400FEEE32 /* Build configuration list for PBXNativeTarget "DrumDub" */;
+			buildPhases = (
+				1A422E03198EAB2400FEEE32 /* Sources */,
+				1A422E04198EAB2400FEEE32 /* Frameworks */,
+				1A422E05198EAB2400FEEE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrumDub;
+			productName = DrumDub;
+			productReference = 1A422E07198EAB2400FEEE32 /* DrumDub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A422E18198EAB2400FEEE32 /* DrumDubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A422E26198EAB2400FEEE32 /* Build configuration list for PBXNativeTarget "DrumDubTests" */;
+			buildPhases = (
+				1A422E15198EAB2400FEEE32 /* Sources */,
+				1A422E16198EAB2400FEEE32 /* Frameworks */,
+				1A422E17198EAB2400FEEE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A422E1B198EAB2400FEEE32 /* PBXTargetDependency */,
+			);
+			name = DrumDubTests;
+			productName = DrumDubTests;
+			productReference = 1A422E19198EAB2400FEEE32 /* DrumDubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A422DFF198EAB2400FEEE32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					1A422E06198EAB2400FEEE32 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1A422E18198EAB2400FEEE32 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1A422E06198EAB2400FEEE32;
+					};
+				};
+			};
+			buildConfigurationList = 1A422E02198EAB2400FEEE32 /* Build configuration list for PBXProject "DrumDub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A422DFE198EAB2400FEEE32;
+			productRefGroup = 1A422E08198EAB2400FEEE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A422E06198EAB2400FEEE32 /* DrumDub */,
+				1A422E18198EAB2400FEEE32 /* DrumDubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A422E05198EAB2400FEEE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A422E30198F144500FEEE32 /* snare.m4a in Resources */,
+				1A422E12198EAB2400FEEE32 /* Main.storyboard in Resources */,
+				1A422E2E198F144500FEEE32 /* bass.m4a in Resources */,
+				1A422E14198EAB2400FEEE32 /* Images.xcassets in Resources */,
+				1A422E31198F144500FEEE32 /* tambourine.m4a in Resources */,
+				1A422E2F198F144500FEEE32 /* maraca.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A422E17198EAB2400FEEE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A422E03198EAB2400FEEE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A422E0F198EAB2400FEEE32 /* ViewController.swift in Sources */,
+				1A422E0D198EAB2400FEEE32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A422E15198EAB2400FEEE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A422E20198EAB2400FEEE32 /* DrumDubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A422E1B198EAB2400FEEE32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A422E06198EAB2400FEEE32 /* DrumDub */;
+			targetProxy = 1A422E1A198EAB2400FEEE32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A422E10198EAB2400FEEE32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A422E11198EAB2400FEEE32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A422E21198EAB2400FEEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A422E22198EAB2400FEEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A422E24198EAB2400FEEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DrumDub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A422E25198EAB2400FEEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DrumDub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A422E27198EAB2400FEEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrumDub.app/DrumDub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrumDubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1A422E28198EAB2400FEEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrumDub.app/DrumDub";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrumDubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A422E02198EAB2400FEEE32 /* Build configuration list for PBXProject "DrumDub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A422E21198EAB2400FEEE32 /* Debug */,
+				1A422E22198EAB2400FEEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A422E23198EAB2400FEEE32 /* Build configuration list for PBXNativeTarget "DrumDub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A422E24198EAB2400FEEE32 /* Debug */,
+				1A422E25198EAB2400FEEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A422E26198EAB2400FEEE32 /* Build configuration list for PBXNativeTarget "DrumDubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A422E27198EAB2400FEEE32 /* Debug */,
+				1A422E28198EAB2400FEEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A422DFF198EAB2400FEEE32 /* Project object */;
+}

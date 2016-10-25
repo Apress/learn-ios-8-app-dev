@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6185.11" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6190.4"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pigeon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yav-JP-Vyo">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="trash" id="eJy-w8-KMj">
+                                        <connections>
+                                            <action selector="clearPin:" destination="BYZ-38-t0r" id="w9U-of-jgN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Wkn-HZ-6gd"/>
+                                    <barButtonItem title="Remember Location" id="49v-Pr-R9y">
+                                        <connections>
+                                            <action selector="dropPin:" destination="BYZ-38-t0r" id="NH5-bJ-1Pd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="n4b-wL-SzA"/>
+                                    <barButtonItem style="plain" id="NOO-PO-WnP">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="F3Y-8G-hz7">
+                                            <rect key="frame" x="554" y="7" width="22" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" scrollEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2V-7P-kbc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="556"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="pnf-Fj-kSW"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yav-JP-Vyo" secondAttribute="trailing" id="CI0-Do-2k0"/>
+                            <constraint firstItem="yav-JP-Vyo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="EvD-aO-grd"/>
+                            <constraint firstItem="yav-JP-Vyo" firstAttribute="top" secondItem="j2V-7P-kbc" secondAttribute="bottom" id="RJf-UY-imH"/>
+                            <constraint firstItem="j2V-7P-kbc" firstAttribute="leading" secondItem="yav-JP-Vyo" secondAttribute="leading" id="VaD-Af-3sy"/>
+                            <constraint firstAttribute="bottom" secondItem="yav-JP-Vyo" secondAttribute="bottom" id="ZrF-7K-Nji"/>
+                            <constraint firstItem="j2V-7P-kbc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ojo-0i-TOd"/>
+                            <constraint firstItem="j2V-7P-kbc" firstAttribute="trailing" secondItem="yav-JP-Vyo" secondAttribute="trailing" id="wiH-rk-cnL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="j2V-7P-kbc" id="9Dv-a8-X3C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

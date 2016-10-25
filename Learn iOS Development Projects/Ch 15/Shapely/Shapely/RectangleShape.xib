@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6249" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="Shape Factory" customClass="ShapeFactory" customModule="Shapely" customModuleProvider="target">
+            <connections>
+                <outlet property="dblTapGesture" destination="x6r-lP-ueK" id="JLh-kS-o8l"/>
+                <outlet property="trplTapGesture" destination="KZO-eg-QFr" id="LqM-tr-KtW"/>
+                <outlet property="view" destination="iN0-l3-epB" id="6ZE-a0-462"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShapeView" customModule="Shapely" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <gestureRecognizers/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="Gb2-p3-gtt" appends="YES" id="Dwq-lZ-Ofg"/>
+                <outletCollection property="gestureRecognizers" destination="XIy-gf-1Qz" appends="YES" id="KLm-Zq-0Wg"/>
+                <outletCollection property="gestureRecognizers" destination="x6r-lP-ueK" appends="YES" id="JvE-eq-QFY"/>
+                <outletCollection property="gestureRecognizers" destination="KZO-eg-QFr" appends="YES" id="f4D-tn-4e1"/>
+            </connections>
+            <point key="canvasLocation" x="229.5" y="-77"/>
+        </view>
+        <placeholder placeholderIdentifier="viewController" id="KeC-Fs-d35" customClass="ViewController" customModule="Shapely" customModuleProvider="target"/>
+        <panGestureRecognizer minimumNumberOfTouches="1" maximumNumberOfTouches="1" id="Gb2-p3-gtt">
+            <connections>
+                <action selector="moveShape:" destination="KeC-Fs-d35" id="wHM-zx-ZPD"/>
+            </connections>
+        </panGestureRecognizer>
+        <pinchGestureRecognizer id="XIy-gf-1Qz">
+            <connections>
+                <action selector="resizeShape:" destination="KeC-Fs-d35" id="Oj1-jt-AKe"/>
+            </connections>
+        </pinchGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="x6r-lP-ueK" userLabel="Double Tap Recognizer">
+            <connections>
+                <action selector="changeColor:" destination="KeC-Fs-d35" id="Vuh-8e-CBR"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer numberOfTapsRequired="3" id="KZO-eg-QFr" userLabel="Triple Tap Recognizer">
+            <connections>
+                <action selector="sendShapeToBack:" destination="KeC-Fs-d35" id="vzs-8Y-s2R"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

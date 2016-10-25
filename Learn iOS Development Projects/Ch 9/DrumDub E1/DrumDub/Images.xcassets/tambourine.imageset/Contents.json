@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "tambourine.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "tambourine@2x.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

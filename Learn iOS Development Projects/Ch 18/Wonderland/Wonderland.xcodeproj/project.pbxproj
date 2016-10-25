@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA7F5AA19BB823600284CEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7F5A919BB823600284CEF /* AppDelegate.swift */; };
+		1AA7F5AC19BB823600284CEF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7F5AB19BB823600284CEF /* FirstViewController.swift */; };
+		1AA7F5B119BB823600284CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7F5AF19BB823600284CEF /* Main.storyboard */; };
+		1AA7F5B319BB823600284CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7F5B219BB823600284CEF /* Images.xcassets */; };
+		1AA7F5BF19BB823700284CEF /* WonderlandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7F5BE19BB823700284CEF /* WonderlandTests.swift */; };
+		1AA7F5CB19BB838000284CEF /* Alice.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7F5C919BB838000284CEF /* Alice.txt */; };
+		1AA7F5CC19BB838000284CEF /* Characters.nsarray in Resources */ = {isa = PBXBuildFile; fileRef = 1AA7F5CA19BB838000284CEF /* Characters.nsarray */; };
+		1ADA9AB219BBC84E000F92C2 /* CharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB119BBC84E000F92C2 /* CharacterTableViewController.swift */; };
+		1ADA9AB419BBC858000F92C2 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB319BBC858000F92C2 /* CharacterDetailViewController.swift */; };
+		1ADA9ABA19BBD717000F92C2 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB519BBD717000F92C2 /* BookViewController.swift */; };
+		1ADA9ABB19BBD717000F92C2 /* BookDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB619BBD717000F92C2 /* BookDataSource.swift */; };
+		1ADA9ABC19BBD717000F92C2 /* OnePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB719BBD717000F92C2 /* OnePageViewController.swift */; };
+		1ADA9ABD19BBD717000F92C2 /* OnePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB819BBD717000F92C2 /* OnePageView.swift */; };
+		1ADA9ABE19BBD717000F92C2 /* Paginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA9AB919BBD717000F92C2 /* Paginator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AA7F5B919BB823700284CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA7F59C19BB823600284CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA7F5A319BB823600284CEF;
+			remoteInfo = Wonderland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA7F5A419BB823600284CEF /* Wonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA7F5A819BB823600284CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA7F5A919BB823600284CEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AA7F5AB19BB823600284CEF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		1AA7F5B019BB823600284CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AA7F5B219BB823600284CEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AA7F5B819BB823700284CEF /* WonderlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA7F5BD19BB823700284CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA7F5BE19BB823700284CEF /* WonderlandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonderlandTests.swift; sourceTree = "<group>"; };
+		1AA7F5C919BB838000284CEF /* Alice.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alice.txt; sourceTree = "<group>"; };
+		1AA7F5CA19BB838000284CEF /* Characters.nsarray */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Characters.nsarray; sourceTree = "<group>"; };
+		1ADA9AB119BBC84E000F92C2 /* CharacterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterTableViewController.swift; sourceTree = "<group>"; };
+		1ADA9AB319BBC858000F92C2 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		1ADA9AB519BBD717000F92C2 /* BookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		1ADA9AB619BBD717000F92C2 /* BookDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDataSource.swift; sourceTree = "<group>"; };
+		1ADA9AB719BBD717000F92C2 /* OnePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePageViewController.swift; sourceTree = "<group>"; };
+		1ADA9AB819BBD717000F92C2 /* OnePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnePageView.swift; sourceTree = "<group>"; };
+		1ADA9AB919BBD717000F92C2 /* Paginator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paginator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA7F5A119BB823600284CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA7F5B519BB823700284CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA7F59B19BB823600284CEF = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5A619BB823600284CEF /* Wonderland */,
+				1AA7F5BB19BB823700284CEF /* WonderlandTests */,
+				1AA7F5A519BB823600284CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA7F5A519BB823600284CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5A419BB823600284CEF /* Wonderland.app */,
+				1AA7F5B819BB823700284CEF /* WonderlandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA7F5A619BB823600284CEF /* Wonderland */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5A919BB823600284CEF /* AppDelegate.swift */,
+				1AA7F5AB19BB823600284CEF /* FirstViewController.swift */,
+				1ADA9AB119BBC84E000F92C2 /* CharacterTableViewController.swift */,
+				1ADA9AB319BBC858000F92C2 /* CharacterDetailViewController.swift */,
+				1ADA9AB519BBD717000F92C2 /* BookViewController.swift */,
+				1ADA9AB619BBD717000F92C2 /* BookDataSource.swift */,
+				1ADA9AB719BBD717000F92C2 /* OnePageViewController.swift */,
+				1ADA9AB819BBD717000F92C2 /* OnePageView.swift */,
+				1ADA9AB919BBD717000F92C2 /* Paginator.swift */,
+				1AA7F5AF19BB823600284CEF /* Main.storyboard */,
+				1AA7F5B219BB823600284CEF /* Images.xcassets */,
+				1AA7F5C819BB838000284CEF /* Data Resources */,
+				1AA7F5A719BB823600284CEF /* Supporting Files */,
+			);
+			path = Wonderland;
+			sourceTree = "<group>";
+		};
+		1AA7F5A719BB823600284CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5A819BB823600284CEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AA7F5BB19BB823700284CEF /* WonderlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5BE19BB823700284CEF /* WonderlandTests.swift */,
+				1AA7F5BC19BB823700284CEF /* Supporting Files */,
+			);
+			path = WonderlandTests;
+			sourceTree = "<group>";
+		};
+		1AA7F5BC19BB823700284CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5BD19BB823700284CEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AA7F5C819BB838000284CEF /* Data Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7F5C919BB838000284CEF /* Alice.txt */,
+				1AA7F5CA19BB838000284CEF /* Characters.nsarray */,
+			);
+			path = "Data Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA7F5A319BB823600284CEF /* Wonderland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA7F5C219BB823700284CEF /* Build configuration list for PBXNativeTarget "Wonderland" */;
+			buildPhases = (
+				1AA7F5A019BB823600284CEF /* Sources */,
+				1AA7F5A119BB823600284CEF /* Frameworks */,
+				1AA7F5A219BB823600284CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wonderland;
+			productName = Wonderland;
+			productReference = 1AA7F5A419BB823600284CEF /* Wonderland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AA7F5B719BB823700284CEF /* WonderlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA7F5C519BB823700284CEF /* Build configuration list for PBXNativeTarget "WonderlandTests" */;
+			buildPhases = (
+				1AA7F5B419BB823700284CEF /* Sources */,
+				1AA7F5B519BB823700284CEF /* Frameworks */,
+				1AA7F5B619BB823700284CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AA7F5BA19BB823700284CEF /* PBXTargetDependency */,
+			);
+			name = WonderlandTests;
+			productName = WonderlandTests;
+			productReference = 1AA7F5B819BB823700284CEF /* WonderlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA7F59C19BB823600284CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					1AA7F5A319BB823600284CEF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1AA7F5B719BB823700284CEF = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1AA7F5A319BB823600284CEF;
+					};
+				};
+			};
+			buildConfigurationList = 1AA7F59F19BB823600284CEF /* Build configuration list for PBXProject "Wonderland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA7F59B19BB823600284CEF;
+			productRefGroup = 1AA7F5A519BB823600284CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA7F5A319BB823600284CEF /* Wonderland */,
+				1AA7F5B719BB823700284CEF /* WonderlandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA7F5A219BB823600284CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA7F5CC19BB838000284CEF /* Characters.nsarray in Resources */,
+				1AA7F5CB19BB838000284CEF /* Alice.txt in Resources */,
+				1AA7F5B119BB823600284CEF /* Main.storyboard in Resources */,
+				1AA7F5B319BB823600284CEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA7F5B619BB823700284CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA7F5A019BB823600284CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA7F5AA19BB823600284CEF /* AppDelegate.swift in Sources */,
+				1ADA9AB419BBC858000F92C2 /* CharacterDetailViewController.swift in Sources */,
+				1ADA9ABE19BBD717000F92C2 /* Paginator.swift in Sources */,
+				1ADA9ABA19BBD717000F92C2 /* BookViewController.swift in Sources */,
+				1ADA9AB219BBC84E000F92C2 /* CharacterTableViewController.swift in Sources */,
+				1ADA9ABC19BBD717000F92C2 /* OnePageViewController.swift in Sources */,
+				1AA7F5AC19BB823600284CEF /* FirstViewController.swift in Sources */,
+				1ADA9ABD19BBD717000F92C2 /* OnePageView.swift in Sources */,
+				1ADA9ABB19BBD717000F92C2 /* BookDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA7F5B419BB823700284CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA7F5BF19BB823700284CEF /* WonderlandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA7F5BA19BB823700284CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AA7F5A319BB823600284CEF /* Wonderland */;
+			targetProxy = 1AA7F5B919BB823700284CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AA7F5AF19BB823600284CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA7F5B019BB823600284CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA7F5C019BB823700284CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AA7F5C119BB823700284CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AA7F5C319BB823700284CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Wonderland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AA7F5C419BB823700284CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Wonderland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AA7F5C619BB823700284CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WonderlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+			};
+			name = Debug;
+		};
+		1AA7F5C719BB823700284CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WonderlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA7F59F19BB823600284CEF /* Build configuration list for PBXProject "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA7F5C019BB823700284CEF /* Debug */,
+				1AA7F5C119BB823700284CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA7F5C219BB823700284CEF /* Build configuration list for PBXNativeTarget "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA7F5C319BB823700284CEF /* Debug */,
+				1AA7F5C419BB823700284CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA7F5C519BB823700284CEF /* Build configuration list for PBXNativeTarget "WonderlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA7F5C619BB823700284CEF /* Debug */,
+				1AA7F5C719BB823700284CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AA7F59C19BB823600284CEF /* Project object */;
+}
